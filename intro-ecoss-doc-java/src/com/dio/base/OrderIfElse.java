@@ -1,13 +1,11 @@
 package com.dio.base;
 
-import java.math.BigDecimal;
-
-public class Order {
+public class OrderIfElse {
 
     private final String code;
     private final Double totalValue;
 
-    public Order(String code, Double totalValue) {
+    public OrderIfElse(String code, Double totalValue) {
         this.code = code;
         this.totalValue = totalValue;
     }
