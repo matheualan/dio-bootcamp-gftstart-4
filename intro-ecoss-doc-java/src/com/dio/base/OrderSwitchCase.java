@@ -5,8 +5,6 @@ public class OrderSwitchCase {
     private final String code;
     private final Integer totalValue;
 
-    private String[] items;
-
     public OrderSwitchCase(String code, Integer totalValue) {
         this.code = code;
         this.totalValue = totalValue;

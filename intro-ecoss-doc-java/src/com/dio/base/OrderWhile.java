@@ -5,7 +5,7 @@ public class OrderWhile {
     private String code;
     private Double totalValue;
 
-    private String[] items;
+    private String[] items = new String[10];
 
     public OrderWhile() {
     }
@@ -19,6 +19,7 @@ public class OrderWhile {
         int i = 0;
         while (i < items.length) {
             System.out.println(items + " " + i);
+            i++;
         }
     }
 

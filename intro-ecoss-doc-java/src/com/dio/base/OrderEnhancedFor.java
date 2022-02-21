@@ -5,7 +5,7 @@ public class OrderEnhancedFor {
     private String code;
     private Integer totalValue;
 
-    private String[] items;
+    private String[] items = new String[10];
 
     public OrderEnhancedFor(String code, Integer totalValue) {
         this.code = code;
@@ -17,5 +17,5 @@ public class OrderEnhancedFor {
             System.out.println(item);
         }
     }
-    
+
 }

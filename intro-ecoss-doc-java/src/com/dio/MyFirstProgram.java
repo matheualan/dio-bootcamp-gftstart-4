@@ -14,8 +14,11 @@ public class MyFirstProgram {
         var order = new Order("c123", 2.50);
         System.out.println(order);
 
-        var orderFor = new OrderFor();
-        var orderWhile = new OrderWhile("c123", 2.50);
+        OrderFor orderFor = new OrderFor();
+        var orderWhile = new OrderWhile();
+
+        orderFor.printItemsFor();
+        orderWhile.printItemsWhile();
     }
 
 }
