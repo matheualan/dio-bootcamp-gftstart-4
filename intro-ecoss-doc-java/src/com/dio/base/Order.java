@@ -1,7 +1,5 @@
 package com.dio.base;
 
-import java.math.BigDecimal;
-
 public class Order {
 
     private final String code;
