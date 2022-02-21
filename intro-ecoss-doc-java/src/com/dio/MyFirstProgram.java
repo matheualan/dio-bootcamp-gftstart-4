@@ -1,13 +1,21 @@
 package com.dio;
 
 import com.dio.base.Order;
-import java.math.BigDecimal;
+import com.dio.base.OrderFor;
+import com.dio.base.OrderWhile;
+
+/**
+ * Definir uma variável como 'final' obriga ela a ser inicializada e a classe não pode ter Construtor em branco
+ */
 
 public class MyFirstProgram {
 
     public static void main(String[] args) {
-        Order order = new Order("c123", 2.50);
+        var order = new Order("c123", 2.50);
         System.out.println(order);
+
+        var orderFor = new OrderFor();
+        var orderWhile = new OrderWhile("c123", 2.50);
     }
 
 }
