@@ -1,6 +1,6 @@
 package com.dio;
 
-public class Program {
+public class ConceituacaoCriacao {
     public static void main(String[] args) {
 
         int i;
@@ -43,4 +43,5 @@ public class Program {
         System.out.println(QUANTIDADE_OPCOES);
 
     }
+
 }
