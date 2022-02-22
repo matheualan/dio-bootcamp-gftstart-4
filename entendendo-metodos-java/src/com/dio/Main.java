@@ -1,12 +1,20 @@
 package com.dio;
 
-import com.dio.base.Emprestimo;
-import com.dio.base.Mensagem;
-import com.dio.base.OperacoesBasicas;
+import com.dio.exerc02.Quadrilatero;
 
 public class Main {
 
     public static void main(String[] args) {
+
+//        EXERCÍCIO 02
+        Quadrilatero.area(4);
+        Quadrilatero.area(6d, 6d);
+        Quadrilatero.area(8, 7, 9);
+        Quadrilatero.area(6f, 6f);
+
+
+        /*
+//        EXERCÍCIO 01
         OperacoesBasicas opBase = new OperacoesBasicas();
         opBase.soma(2, 2);
         opBase.subtracao(2, 1);
@@ -25,6 +33,7 @@ public class Main {
         Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
         Emprestimo.calcular(1000, 5);
+        */
 
     }
 

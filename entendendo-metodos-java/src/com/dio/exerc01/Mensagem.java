@@ -1,4 +1,4 @@
-package com.dio.base;
+package com.dio.exerc01;
 
 public class Mensagem {
 
