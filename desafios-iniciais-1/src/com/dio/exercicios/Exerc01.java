@@ -1,9 +1,9 @@
-package com.dio;
+package com.dio.exercicios;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Program {
+public class Exerc01 {
 
     public static void main(String[] args) {
 
