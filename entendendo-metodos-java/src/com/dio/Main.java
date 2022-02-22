@@ -9,8 +9,10 @@ public class Main {
 //        EXERCÍCIO 02
         System.out.println("Área do quadrado: " + Quadrilatero.area(4));
         System.out.println("Área do retângulo: " + Quadrilatero.area(6d, 6d));
-        Quadrilatero.area(8, 7, 9);
-        Quadrilatero.area(6f, 6f);
+        double trapezio = Quadrilatero.area(8, 7, 9);
+        double losango = Quadrilatero.area(6f, 6f);
+        System.out.println("Área do trapezio: " + trapezio);
+        System.out.println("Área do losango: " + losango);
 
 
         /*
