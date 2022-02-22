@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
 //        EXERCÍCIO 02
-        Quadrilatero.area(4);
-        Quadrilatero.area(6d, 6d);
+        System.out.println("Área do quadrado: " + Quadrilatero.area(4));
+        System.out.println("Área do retângulo: " + Quadrilatero.area(6d, 6d));
         Quadrilatero.area(8, 7, 9);
         Quadrilatero.area(6f, 6f);
 

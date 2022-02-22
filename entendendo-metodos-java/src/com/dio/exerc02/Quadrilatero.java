@@ -2,13 +2,15 @@ package com.dio.exerc02;
 
 public class Quadrilatero {
 
-    public static void area (double lado) {
-        System.out.println("Área do quadrado: " + lado * lado);
+    public static double area(double lado) {
+//        System.out.println("Área do quadrado: " + lado * lado);
+        double result = lado * lado;
+        return result;
     }
 
-    public static void area (double lado1, double lado2) {
-        System.out.println("Área do retângulo: " + lado1 * lado2);
-
+    public static double area(double lado1, double lado2) {
+//        System.out.println("Área do retângulo: " + lado1 * lado2);
+        return lado1 * lado2;
     }
 
     public static void area(double baseMaior, double baseMenor, double altura) {
