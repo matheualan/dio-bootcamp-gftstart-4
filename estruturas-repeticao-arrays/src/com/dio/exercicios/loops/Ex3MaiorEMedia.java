@@ -8,8 +8,7 @@ public class Ex3MaiorEMedia {
 
         Scanner sc = new Scanner(System.in);
         int[] numeros = new int[5];
-        int soma = 0;
-        double media;
+        double soma = 0, media;
 
         System.out.print("Informe 5 números: ");
         for (int i = 0; i < 5; i++) {
@@ -37,21 +36,23 @@ public class Ex3MaiorEMedia {
         System.out.println("Soma dos números informados: " + soma);
         System.out.println("Média dos números informados: " + media);
 
-        int numero;
-        int maiorNumero = 0;
-        double sum = 0;
-        int count = 0;
-        do {
-            System.out.println("Número: ");
-            numero = sc.nextInt();
-            sum += numero;
-            if (numero > maiorNumero) {
-                maiorNumero = numero;
-            }
-            count++;
-        } while (count < 5);
-        System.out.println("Maior: " + maiorNumero);
-        System.out.println("Média: " + sum / 5);
+//        int numero;
+//        int maiorNumero = 0;
+//        double sum = 0;
+//        int count = 0;
+//        do {
+//            System.out.println("Número: ");
+//            numero = sc.nextInt();
+//            sum += numero;
+//            if (numero > maiorNumero) {
+//                maiorNumero = numero;
+//            }
+//            count++;
+//        } while (count < 5);
+//        System.out.println("Maior: " + maiorNumero);
+//        System.out.println("Média: " + sum / 5);
+
+        sc.close();
 
     }
 
