@@ -49,7 +49,7 @@ public class Carro {
 
     public void valorEnxerTanque(double valorGasolina) {
         double valorTotal = tanqueL * valorGasolina;
-        System.out.print("Valor total para encher tanque de " + tanqueL + "L: " + valorTotal);
+        System.out.print("Valor total para encher tanque de " + tanqueL + "L: " + valorTotal + "\n");
     }
 
 }
