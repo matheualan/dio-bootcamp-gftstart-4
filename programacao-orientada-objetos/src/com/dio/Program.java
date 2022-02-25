@@ -7,6 +7,7 @@ import com.dio.heranca.Veiculo;
 import com.dio.porlimorfismo.ClasseFilha1;
 import com.dio.porlimorfismo.ClasseFilha2;
 import com.dio.porlimorfismo.ClasseMae;
+import com.dio.repository.Calculadora;
 
 public class Program {
     public static void main(String[] args) {
@@ -33,6 +34,8 @@ public class Program {
 //        System.out.println("Cor: " + carro3.getCor());
 //        carro3.valorEnxerTanque(3.50);
 
+
+
 //        EXERCÍCIO 02
 //        Carro car = (Carro) new Veiculo();
 //        Veiculo veic = new Carro();
@@ -42,23 +45,31 @@ public class Program {
 //
 //        Caminhao truck = (Caminhao) new Veiculo();
 //        Veiculo veiculo = new Caminhao();
+//
+//        ClasseMae[] classMother = new ClasseMae[]{new ClasseFilha1(), new ClasseFilha2(), new ClasseMae()};
+//
+//        for (ClasseMae cs : classMother) {
+//            cs.metodo1();
+//        }
+//
+//        System.out.println();
+//
+//        for (ClasseMae cs : classMother) {
+//            cs.metodo2();
+//        }
+//
+//        System.out.println();
+//
+//        ClasseFilha2 classeFilha2 = new ClasseFilha2();
+//        classeFilha2.metodo2();
 
-        ClasseMae[] classMother = new ClasseMae[]{new ClasseFilha1(), new ClasseFilha2(), new ClasseMae()};
 
-        for (ClasseMae cs : classMother) {
-            cs.metodo1();
-        }
-
-        System.out.println();
-
-        for (ClasseMae cs : classMother) {
-            cs.metodo2();
-        }
-
-        System.out.println();
-
-        ClasseFilha2 classeFilha2 = new ClasseFilha2();
-        classeFilha2.metodo2();
-
+//        EXERCÍCIO 03
+        Calculadora calculadora = new Calculadora();
+        calculadora.soma(2, 2);
+        calculadora.substracao(5, 3);
+        calculadora.multiplicacao(3, 3);
+        calculadora.divisao(8, 2);
+        calculadora.modulo(4, 2);
     }
 }
