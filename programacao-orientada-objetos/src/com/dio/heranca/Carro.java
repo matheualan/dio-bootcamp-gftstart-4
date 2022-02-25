@@ -1,4 +1,4 @@
-package com.dio.classes;
+package com.dio.heranca;
 
 public class Carro extends Veiculo {
 
