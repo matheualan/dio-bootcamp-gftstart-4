@@ -68,7 +68,6 @@ public abstract class Conta implements iConta {
             System.out.println(String.format("Agência: %d", this.agencia));
             System.out.println(String.format("Nº Conta: %d", this.numero));
             System.out.println(String.format("Saldo: %.2f", this.saldo));
-            System.out.println("==============================\n");
         } else {
             System.out.println("Falha ao solicitar extrato da conta, procure uma agência mais próxima.");
         }

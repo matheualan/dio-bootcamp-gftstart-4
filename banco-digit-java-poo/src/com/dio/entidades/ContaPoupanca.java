@@ -8,8 +8,10 @@ public class ContaPoupanca extends Conta {
 
     @Override
     public void extrato() {
-        System.out.println("=== Extrato Conta Poupança ===");
+        System.out.println("==============================");
+        System.out.println("### Extrato Conta Poupança ###");
         infoConta();
+        System.out.println("==============================\n");
     }
 
 }
