@@ -41,7 +41,7 @@ public abstract class Conta implements iConta {
 
     @Override
     public void depositar(double valorDeposito) {
-        if (ativada) {
+        if (this.ativada) {
             this.saldo += valorDeposito;
         } else {
             System.out.println("Conta inexistente.");
@@ -50,7 +50,7 @@ public abstract class Conta implements iConta {
 
     @Override
     public void transferir(Conta contaDestino, double valorTransf) {
-        if (ativada && contaDestino.ativada) {
+        if (this.ativada && this.saldo > valorTransf && contaDestino.ativada) {
             this.sacar(valorTransf);
             contaDestino.depositar(valorTransf);
         } else {
