@@ -6,24 +6,13 @@ import java.util.Scanner;
 public class Exerc01 {
 
     public static void main(String[] args) {
-
-        double a = 0;
-        double b = 0;
-        double media;
+        double a = 0, y = 0, media;
+//        double y = 0;
+//        double media;
         Scanner sc = new Scanner(System.in);
-        try {
-            System.out.print("Digite o primeiro número: ");
-            a = sc.nextDouble();
-            System.out.print("Digite o segundo número: ");
-            b = sc.nextDouble();
-            sc.close();
-        } catch (InputMismatchException e) {
-            System.err.println("\n" + e.getMessage() + ". Para valores com ponto flutuante, separar por vírgula.");
-        }
-        media = (a * 3.5 + b * 7.5) / 11;
-        System.out.printf("Média entre %.1f e %.1f foi de %.5f", a, b, media);
-        System.out.println();
-
+        a = sc.nextDouble();
+        y = sc.nextDouble();
+        media = (a * 3.5 + y * 7.5) / 11;
+        System.out.printf("MEDIA = %.5f", media);
     }
-
 }

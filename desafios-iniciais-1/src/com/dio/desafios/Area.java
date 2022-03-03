@@ -2,7 +2,7 @@ package com.dio.desafios;
 
 import java.util.Scanner;
 
-public class Main {
+public class Area {
 
     public static void main(String[] args){
 
