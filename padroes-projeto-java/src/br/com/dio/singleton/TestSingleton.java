@@ -1,6 +1,4 @@
-package br.com.dio.gof;
-
-import java.util.regex.Pattern;
+package br.com.dio.singleton;
 
 //        Testes relacionados ao Desing Pattern Singleton que deve retornar o endereço de memória igual para cada instância
 public class TestSingleton {
