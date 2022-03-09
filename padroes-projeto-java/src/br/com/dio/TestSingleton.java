@@ -1,4 +1,8 @@
-package br.com.dio.singleton;
+package br.com.dio;
+
+import br.com.dio.singleton.SingletonEager;
+import br.com.dio.singleton.SingletonLazy;
+import br.com.dio.singleton.SingletonLazyHolder;
 
 //        Testes relacionados ao Desing Pattern Singleton que deve retornar o endereço de memória igual para cada instância
 public class TestSingleton {
